@@ -2,11 +2,8 @@
 시스템 프로그래밍 lab4 실습
 
 
-
-
-
-### Usage
-< num 2 >
+## Usage
+**< num 2 >**
 
 ```
 $ gcc filename.c -o filename
@@ -22,14 +19,14 @@ $ ./filename
 
 
 
-< num 3 >
+**< num 3 >**
 
 ```
 $ gcc boundedbuffer.c -o boundedbuffer
 $ ./boundedbuffer
 ```
 
-< num 4 >
+**< num 4 >**
 
 ```
 $ gcc broadcast.c -o broadcast
@@ -38,7 +35,7 @@ $ ./broadcast
 
 
 
-< num 5 >
+**< num 5 >**
 
 터미널 1 (서버)
 ```
@@ -54,7 +51,7 @@ $ ./socket_ex_c
 
 
 
-< num 6 >
+**< num 6 >**
 
 터미널 1
 ```
@@ -75,7 +72,7 @@ $ ./client <IP> <name>
 
 
 
-< num 7 >
+**< num 7 >**
 
 터미널 1
 ```
@@ -92,7 +89,7 @@ _*curl 미설치 시 : sudo apt install curl_
 
 
 
-< num 8 >
+**< num 8 >**
 ```
 $ gcc -o filename filename.c $(pkg-config --cflags --libs gtk+-3.0)
 $ ./filename
@@ -100,7 +97,7 @@ $ ./filename
 
 _*gtk 미설치 시 : sudo apt-get install libgtk-3-dev glade cmake build-essential_
 
-< num 9 >
+**< num 9 >**
 
 ```
 $ gcc -o calculator calculator.c $(pkg-config --cflags --libs gtk+-3.0)
